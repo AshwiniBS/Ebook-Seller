@@ -1,0 +1,30 @@
+<section class="py-2">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h1 class="display-4 mt-3 pt-5">
+        Cheatsheet for web designing and development
+      </h1>
+      <p class="lead">This book is a quick guide or a cheatsheet which contains all the syntax, color code cheats, etc.</p>
+      <form action="/charge" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="{{stripePublishableKey}}"
+          data-amount="2500"
+          data-name="Cheatsheet for web designing and development"
+          data-description="Ebook written by Ashwini B S"
+          data-image="/img/marketplace.png"
+          data-locale="auto">
+        </script>
+        <script>
+          // Hide default stripe button
+          document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+        </script>
+
+        <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase For $25</button>
+      </form>
+    </div>
+    <div class="col-md-3 pt-5 py-5" data-tilt data-tilt-glare data-tilt-max-glare="0.1">
+      <img src="/img/book.png" alt="" class="img-fluid">
+    </div>
+  </div>
+</section>

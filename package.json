@@ -1,0 +1,21 @@
+{
+  "name": "ebookseller",
+  "version": "1.0.0",
+  "description": "App to sell ebooks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ebook",
+    "seller"
+  ],
+  "author": "Ashwini B S",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.6.1"
+  }
+}
